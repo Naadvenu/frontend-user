@@ -46,24 +46,24 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                We guide our students on a transformative journey, harmonizing heart and soul through the enchanting melodies of the flute
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
                 </p>
                 <a
-                  href="tel:+917400296867"
+                  href="tel:+918291806360"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  +917400296867
+                  +918291806360
                 </a>
                 <br />
                 <a
-                  href="mailto:contact@naadvenu.com"
+                  href="mailto:naadvenu.music@gmail.com"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  contact@naadvenu.com
+                  naadvenu.music@gmail.com
                 </a>
               </motion.div>
 

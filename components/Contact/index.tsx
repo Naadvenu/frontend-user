@@ -230,7 +230,7 @@ const Contact = () => {
                   Email Address
                 </h3>
                 <p>
-                  <a href="mailto:contact@naadvenu.com">contact@naadvenu.com</a>
+                  <a href="mailto:naadvenu.music@gmail.com">naadvenu.music@gmail.com</a>
                 </p>
               </div>
               <div>
@@ -238,7 +238,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="tel:+917400296867">+91 74002 96867</a>
+                  <a href="tel:+918291806360">+91 82918 06360</a>
                 </p>
               </div>
             </motion.div>

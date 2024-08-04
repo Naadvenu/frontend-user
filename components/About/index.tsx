@@ -131,10 +131,10 @@ const About = () => {
               Akash Suryawanshi
               </h2>
               <p>
-              is a renowned Hindustani classical musician and the founder of Naadvenu Flute Classes. Inspired by Indian classical music from a young age, he honed his skills under the guidance of renowned Surmani Pandit Vivek Sonar. Driven by a desire to share his love for the flute, Akash founded Naadvenu Flute Classes with a clear vision and mission. As a teacher, performer, and cultural ambassador, Akash provides personalized attention, guidance, and mentorship, tailoring instruction to each student's unique strengths, interests, and goals.
+              is a renowned Hindustani classical musician and the founder of Naadvenu Flute Classes. Inspired by Indian classical music from a young age, he honed his skills under the guidance of renowned Pandit Vivek Sonar. Driven by a desire to share his love for the flute, Akash founded Naadvenu Flute Classes with a clear vision and mission. As a teacher, performer, and cultural ambassador, Akash provides personalized attention, guidance, and mentorship, tailoring instruction to each student's unique strengths, interests, and goals.
               </p>
               
-              <div>
+              {/* <div>
                 <a
                   href="#"
                   className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
@@ -151,7 +151,7 @@ const About = () => {
                     <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
                   </svg>
                 </a>
-              </div>
+              </div> */}
             </motion.div>
             <motion.div
               variants={{

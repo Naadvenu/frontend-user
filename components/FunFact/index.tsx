@@ -108,7 +108,7 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                50+
+                30+
               </h3>
               <p className="text-lg lg:text-para2">Perfomance</p>
             </motion.div>
@@ -131,7 +131,7 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                4
+                2
               </h3>
               <p className="text-lg lg:text-para2">Workshop</p>
             </motion.div>

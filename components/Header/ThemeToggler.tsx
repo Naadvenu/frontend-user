@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 
 const ThemeToggler = () => {
   const { theme, setTheme } = useTheme();
+
+  useEffect(() => {
+    setTheme("dark");
+  }, [setTheme]);
 
   return (
     <button
@@ -19,11 +24,11 @@ const ThemeToggler = () => {
       />
 
       <Image
-        src="/images/icon/icon-sun.svg"
-        alt="logo"
-        width={22}
-        height={22}
-        className="hidden dark:block"
+      src="/images/icon/icon-sun.svg"
+      alt="logo"
+      width={22}
+      height={22}
+      className="hidden dark:block"
       />
     </button>
   );

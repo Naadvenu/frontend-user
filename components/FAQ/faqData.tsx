@@ -9,7 +9,7 @@ const faqData: FAQ[] = [
   {
     id: 2,
     quest: "How often do the flute classes take place?",
-    ans: "Classes are typically held twice a week, on Saturday at 5:30 pm and on Sunday at 1:30 pm.",
+    ans: "Classes are typically held twice a week on the weekend: Saturdays at 5:30 PM and Sundays at 1:30 PM.",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const faqData: FAQ[] = [
   {
     id: 6,
     quest: "What are the fees for the flute classes?",
-    ans: "The admission fee for Naadvenu Flute Classes is ₹500. The monthly tuition fee is ₹1,000. For beginners, we provide a straight flute which costs between ₹150 to ₹180.",
+    ans: "The admission fee for Naadvenu Flute Classes is ₹500. The monthly tuition fee is ₹1,000. For beginners, we provide a straight flute which costs ₹200.",
   },
   {
     id: 7,

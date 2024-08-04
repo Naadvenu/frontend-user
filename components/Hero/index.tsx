@@ -22,8 +22,7 @@ const Hero = () => {
                 Naadvenu Flute Classes
               </h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus delectus repellat quidem inventore. Expedita repudiandae consequuntur rerum, in corporis molestias sequi odit nulla officiis, perspiciatis impedit vitae nobis fuga soluta.
-              </p>
+              Join our vibrant community to unlock your potential through personalized flute instruction and the enchanting melodies that harmonize heart and soul. Embrace the magic of music with us today!              </p>
 
               <div className="mt-10">
                 <button
