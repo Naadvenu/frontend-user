@@ -79,15 +79,32 @@ const GalleryComponent: React.FC<GalleryComponentProps> = ({ category }) => {
                             className="img-item"
                             initial={{ opacity: 0, scale: 0.8 }}
                             whileInView={{ opacity: 1, scale: 1 }}
-                            transition={{ duration: 0.5, delay: 0.1 *  Number(item.id) }}
+                            transition={{ duration: 0.5, delay: 0.1 * Number(item.id) }}
                             viewport={{ once: true }}
                         >
                             <div className="img-wrapper relative">
-                                <img
-                                    src={`data:image/png;base64,${item.img}`}
-                                    className="img-responsive w-full h-auto mx-auto shadow-[0_0px_5px_0_rgba(0,0,0,1)] cursor-pointer transition-all duration-200"
-                                    alt={item.title}
-                                />
+                                {
+                                    item.media ? (
+                                        item.media.endsWith('.mp4') || item.media.endsWith('.mov') || item.media.endsWith('.avi') || item.media.endsWith('.wmv') ? (
+                                            <video
+                                                src={item.media}
+                                                className="video-responsive w-full h-auto mx-auto shadow-[0_0px_5px_0_rgba(0,0,0,1)] cursor-pointer transition-all duration-200"
+                                                controls
+                                                alt={item.title}
+                                            >
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        ) : (
+                                                <img
+                                                    src={item.media}
+                                                    className="img-responsive w-full h-auto mx-auto shadow-[0_0px_5px_0_rgba(0,0,0,1)] cursor-pointer transition-all duration-200"
+                                                    alt={item.title}
+                                                />
+                                            )
+                                    ) : (
+                                            <p>No media available</p>
+                                        )
+                                }
                                 <div className="img-label absolute bottom-0 left-0 w-full bg-white dark:bg-blacksection shadow-[0_0px_5px_0_rgba(0,0,0,1)] px-2 py-2 text-start text-black dark:text-white text-sm leading-3.5">
                                     {item.title}
                                 </div>
