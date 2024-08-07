@@ -90,7 +90,6 @@ const GalleryComponent: React.FC<GalleryComponentProps> = ({ category }) => {
                                                 src={item.media}
                                                 className="video-responsive w-full h-auto mx-auto shadow-[0_0px_5px_0_rgba(0,0,0,1)] cursor-pointer transition-all duration-200"
                                                 controls
-                                                alt={item.title}
                                             >
                                                 Your browser does not support the video tag.
                                             </video>
