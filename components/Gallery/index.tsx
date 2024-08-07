@@ -102,7 +102,7 @@ const GalleryComponent: React.FC<GalleryComponentProps> = ({ category }) => {
                                                 />
                                             )
                                     ) : (
-                                            <p>No media available</p>
+                                            <p>No media available!</p>
                                         )
                                 }
                                 <div className="img-label absolute bottom-0 left-0 w-full bg-white dark:bg-blacksection shadow-[0_0px_5px_0_rgba(0,0,0,1)] px-2 py-2 text-start text-black dark:text-white text-sm leading-3.5">
